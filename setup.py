@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='jamaddr27',
-    version='0.2',
+    version='0.3',
     packages=find_packages(),
     url='https://github.com/talbiston/jamaddr27.git',
     license='MIT',
