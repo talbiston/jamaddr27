@@ -4,7 +4,7 @@ setup(
     name='jamaddr27',
     version='0.1',
     packages=find_packages(),
-    url='https://github.com/talbiston/jamaddr.git',
+    url='https://github.com/talbiston/jamaddr27.git',
     license='MIT',
     author='Jamison Emilio & Todd Albiston',
     author_email='foxtrot711@gmail.com',
