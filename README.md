@@ -6,6 +6,7 @@ This package Created by Jamison Emilio and packaged by Todd Albiston
 ```markdown
 pip install jamaddr27 
 ```
+for python3.6 see jamaddr https://github.com/talbiston/jamaddr
 
 ## Description:
 Python Package adds functions to convert IP address or subnet masks to bits and bits back to IP address.
