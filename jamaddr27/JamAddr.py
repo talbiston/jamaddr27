@@ -54,9 +54,9 @@ def bits_to_ip(bits):
 def ip_broadcastip(target, subnet):
     '''
     Returns the broadcast IP in a subnet.
-    :param target:
-    :param subnet:
-    :return:
+    :param target: str (192.168.100.4)
+    :param subnet: str (255.255.224.0)
+    :return: str (192.168.127.255)
     '''
 
     t_res = []
@@ -75,10 +75,10 @@ def ip_broadcastip(target, subnet):
 def wc_compare(target, wc_net, wc_mask):
     '''
     Determines if a target IP exists in a wildcard network and mask.
-    :param target:
-    :param wc_net:
-    :param wc_mask:
-    :return:
+    :param target: str (192.168.4.30) IP to check fits into wildcard
+    :param wc_net: str (192.168.0.2) IP to check against
+    :param wc_mask: str (255.255.0.224) Wildcard subnet mask
+    :return: Bool (True)
     '''
 
     t_res = []
